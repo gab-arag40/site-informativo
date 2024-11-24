@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>TFP - Newsletter</title>
+</head>
+
+<body>
+    <nav>
+        <div class="aaa">
+            <div class="logo">
+                <a href="index.html">The First Penny</a>
+            </div>
+
+            <div class="navbar">
+                <a href="historias.html">Como surgiram ?</a>
+                <a href="conversor.html">Quanto valem hoje em dia?</a>
+                <a href="surgimento.html">A Invenção da Moeda</a>
+                <a href="newsletter.html">Nossa Newsletter</a>
+            </div>
+
+        </div>
+    </nav>
+    <main class="forms">
+        <div>
+            <h1>A melhor Newsletter Numismata do Brasil</h1>
+            <p>Assine e você receberá os melhores artigos, notícias e atualizações do mundo das moedas !</p>
+            <p>Preencha o formulário para receber nossa newsletter semanalmente em seu e-mail.</p>
+            <br>
+
+            <form class="container">
+
+                <label for="nome">Nome Completo *</label>
+                <input type="text" placeholder="Digite seu nome" name="nome" id="cxnome" required="Requirido">
+
+                <label for="email">E-mail *</label>
+                <input type="email" placeholder="Digite seu e-mail" name="email" id="cxemail" required="Requirido">
+
+                <label for="estadocidade">Cidade - Estado *</label>
+                <select name="estadocidade" id="cxestcid" required="Requirido">
+                    <option value="padrao2">Selecione Cidade/Estado</option>
+                    <option value="rj">Rio de Janeiro/RJ</option>
+                    <option value="bh">Belo Horizonte/MG</option>
+                    <option value="sp">São Paulo/SP</option>
+                    <option value="es">Vitória/ES</option>
+                </select>
+
+                <label for="genero">Gênero *</label>
+                <select name="genero" id="cxgenero" required="Requirido">
+                    <option value="padrao">Selecione Gênero</option>
+                    <option value="masc">Masculino</option>
+                    <option value="fem">Feminino</option>
+                    <option value="outros">Outros</option>
+                </select>
+
+                <label for="data">Data de Nascimento *</label>
+                <input type="date" placeholder="Data de Nascimento" name="data" id="cxdata" required="Requirido">
+
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
