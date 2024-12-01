@@ -28,22 +28,22 @@
     </nav>
     <main class="forms">
         <div>
-            <h1>A melhor Newsletter Numismata do Brasil</h1>
+            <h1>A Melhor Newsletter Numismata do Brasil</h1>
             <p>Assine e você receberá os melhores artigos, notícias e atualizações do mundo das moedas !</p>
             <p>Preencha o formulário para receber nossa newsletter semanalmente em seu e-mail.</p>
             <br>
 
-            <form class="container">
+            <form class="nlform">
 
                 <label for="nome">Nome Completo *</label>
-                <input type="text" placeholder="Digite seu nome" name="nome" id="cxnome" required="Requirido">
+                <input type="text" placeholder="Digite seu nome" name="nome" id="cxnome" required>
 
                 <label for="email">E-mail *</label>
-                <input type="email" placeholder="Digite seu e-mail" name="email" id="cxemail" required="Requirido">
+                <input type="email" placeholder="Digite seu e-mail" name="email" id="cxemail" required>
 
                 <label for="estadocidade">Cidade - Estado *</label>
-                <select name="estadocidade" id="cxestcid" required="Requirido">
-                    <option value="padrao2">Selecione Cidade/Estado</option>
+                <select name="estadocidade" id="cxestcid" required>
+                    <option value="padrao2" disabled selected>Selecione Cidade/Estado</option>
                     <option value="rj">Rio de Janeiro/RJ</option>
                     <option value="bh">Belo Horizonte/MG</option>
                     <option value="sp">São Paulo/SP</option>
@@ -51,21 +51,27 @@
                 </select>
 
                 <label for="genero">Gênero *</label>
-                <select name="genero" id="cxgenero" required="Requirido">
-                    <option value="padrao">Selecione Gênero</option>
+                <select name="genero" id="cxgenero" required>
+                    <option value="padrao" disabled selected>Selecione Gênero</option>
                     <option value="masc">Masculino</option>
                     <option value="fem">Feminino</option>
                     <option value="outros">Outros</option>
                 </select>
 
                 <label for="data">Data de Nascimento *</label>
-                <input type="date" placeholder="Data de Nascimento" name="data" id="cxdata" required="Requirido">
+                <input type="date" placeholder="Data de Nascimento" name="data" id="cxdata" required>
 
 
                 <button type="submit">Enviar</button>
             </form>
         </div>
     </main>
+    <footer>
+        <p>feito por @gab_aragão (2024)</p>
+        <br>
+        <a href="index.html">Página Inicial</a>
+        <a href="newsletter.html">Voltar ao Topo</a>
+    </footer>
 </body>
 
 </html>
